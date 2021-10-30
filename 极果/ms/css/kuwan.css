@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部 */
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 1080px;
+    height: 65px;
+    margin: 0 auto;
+}
+.a{
+    float: left;
+    width: 130px;
+    height: 50px;
+    margin-top: 15px;
+}
+.a1{
+    float: right;
+    width: 535px;
+    height: 36px;
+    margin-top: 29px;
+    margin-right: 25px;
+}
+.a2{
+    position: relative;
+    float: right;
+    width: 217px;
+    height: 48px;
+    margin-top: 17px;
+    color: #827523;
+    font-size: 12px;
+}
+.a2 span{
+    position: absolute;
+    top: 17px;
+    left: 118px;
+}
+.a3{
+    float: right;
+    width: 78px;
+    height: 34px;
+    border: 1px solid #fc584e;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: #fc584e;
+    cursor: pointer;
+}
+.a4{
+    display: flex;
+    float: right;
+    margin-right: 15px;
+    width: 430px;
+    height: 34px;
+    border: 1px solid #fc584e;
+    justify-content: flex-end;
+}
+.a4 button{
+    flex: 1;
+    background-color: #fc584e;
+    border: none;
+    color: white;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.a4 input{
+    flex: 3;
+    border: none;
+    outline:none ;
+    text-indent: 1em;
+}
+/* 导航分类 */
+.box{
+    width: 1080px;
+    height: 34px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.box ul li{
+    width: 100px;
+    height: 34px;
+    float: left;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
+.box ul li:nth-child(2){
+    background-color: #fc584e;
+    color: white;
+}
+.box ul li:nth-child(2):hover{
+    color: white;
+}
+.box ul li:hover{
+    color: #fc584e;
+}
+.box ul li:nth-child(3) a:hover{
+    color: #fc584e;
+}
+.denglu{
+    float: right;
+    width: 100px;
+    height: 34px;
+}
+.denglu ul li{
+    width: 50px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+}
+.denglu ul li:hover{
+    color: #fc584e;
+}
+/* 分割线 */
+.fengexian{
+    width: 100%;
+    height: 1px;
+    background-color: #b1b1b1;
+    margin-top: 15px;
+}
+.box1{
+    width: 400px;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 100px;
+    font-size: 32px;
+}
+
+
+
+/* tab栏切换 */
+.tab{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.box2 {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.box2 ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.box2 ul li{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    
+}
+.b1{
+    color: #fd5238;
+    border-bottom: 3px solid #fd5238;
+}
+
+
+
+section{
+    width: 1080px;
+    margin: 0 auto;
+}
+.b{
+    position: relative;
+    width: 1080px;
+    display: none;
+    padding-bottom: 40px;
+
+}
+
+
+.but{
+   position: absolute;
+    bottom: 0px;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 50px;
+    background-color: #fd5238;
+    border: none;
+    background: url(../image/more.png) no-repeat left center;
+    color: #fd5238;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.ajax_{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ajax_ li{
+    position: relative;
+    margin-left: 37px;
+    width: 222px;
+    height: 260px;
+    background-color: white;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.ajax_ li img{
+    width: 222px;
+    height: 130px;
+    border-radius: 5px;
+}
+.ajax_ li p{
+    display: inline-block;
+    height: 40px;
+    font-size: 15px;
+    color: rgb(15, 15, 15);
+    margin-left: 10px;
+}
+.ajax_ li span{
+    display: block;
+    color: #ccc;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.ajax_ li u{
+    position: absolute;
+    color: #fd5238;
+    text-decoration: none;
+    bottom: 15px;
+    left: 10px;
+}
+.ajax_ li div{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    bottom: 10px;
+    right: 10px;
+    color: #ccc;
+}
+.ajax_ li div img{
+    width: 13px;
+    height: 13px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+ 
+/* 品类 */
+.o3{
+    width: 100%;
+}
+.div1{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.c{
+    width: 70px;
+    height: 30px;
+    border-left: 8px solid #fb5142;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.div1 .c1{
+    width: 1000px;
+    height: 260px;
+    margin: 10px auto;
+}
+.c1 ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.c1 ul li{
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c1 ul li p{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.c2{
+    width: 100%;
+    height: 2px;
+    border-bottom: 2px dashed #ccc;
+}
+.div1 .c3{
+    width: 1000px;
+    height: 120px;
+    margin: 10px auto;
+}
+.div1 .c3 ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.div1 .c3 li{
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+}
+
+
+.div2{
+    width: 100%;
+    height: 270px;
+    background-color: white;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+}
+.c4{
+    width: 1000px;
+    height: 150px;
+    margin: 10px auto;
+}
+.c4  ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.c4 ul li{
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c4 ul li p{
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.c5{
+    width: 1000px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.c5 ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.c5 ul li{
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(139, 139, 139);
+    font-size: 15px;
+}
+
+
+
+/* 尾部样式 */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #505050;
+    
+}
+footer .box3{
+    position: relative;
+    width: 1080px;
+    height: 300px;
+    margin: 0px auto;
+}
+footer .box3 .left{
+    float: left;
+    width: 350px;
+    height: 250px;
+    margin-top: 25px;
+}
+footer .box3 .left img{
+    float: left;
+}
+footer .box3 .left .jiguo{
+    float: left;
+    width: 150px;
+    height: 250px;
+    margin-left: 20px;
+}
+footer .box3 .left .jiguo p{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-top: 40px;
+    color:#ccc;
+    font-size: 13px;
+}
+footer .box3 .right{
+    float: left;
+    width: 715px;
+    height: 250px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+footer .box3 .right dl{
+    float: left;
+    margin-right: 35px;
+    color: white;
+}
+footer .box3 .right dt{
+    font-size: 14px;
+    color: #919996;
+    margin-top: 5px;
+}
+footer .box3 .right dl dt:nth-child(1){
+    margin-top: 30px;
+}
+.di{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    color: #919996;
+}
+
+
+
+/* 回到顶部 */
+.top {
+    position: fixed;
+    bottom: 140px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #eeeeef;
+    border-radius: 7px;
+    cursor: pointer;
+    display: none;
+}
+.top span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #9fa0a7;
+}
+.top span .icon-icon-24-shangjiantou {
+    position: absolute;
+    top: 11px;
+    left: 35%;
+    transition: all .45s cubic-bezier(.165,.84,.44,1);
+}
+.top span p {
+    font-size: 11px;
+    position: absolute;
+    top: 25px;
+    left: 28%;
+    transition: transform .35s cubic-bezier(.165,.84,.44,1);
+}
+.top:hover .icon-icon-24-shangjiantou {
+    opacity: 0;
+    transform:  translateY(-10px);
+    color: black;
+}
+.top:hover p {
+    transform: translateY(-7px);
+    color: black;
+}

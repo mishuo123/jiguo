@@ -1,0 +1,41 @@
+/* 回到顶部 */
+.top {
+    position: fixed;
+    bottom: 140px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: #eeeeef;
+    border-radius: 7px;
+    cursor: pointer;
+    display: none;
+}
+.top span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: #9fa0a7;
+}
+.top span .icon-icon-24-shangjiantou {
+    position: absolute;
+    top: 11px;
+    left: 35%;
+    transition: all .45s cubic-bezier(.165,.84,.44,1);
+}
+.top span p {
+    font-size: 11px;
+    position: absolute;
+    top: 25px;
+    left: 28%;
+    transition: transform .35s cubic-bezier(.165,.84,.44,1);
+}
+.top:hover .icon-icon-24-shangjiantou {
+    opacity: 0;
+    transform:  translateY(-10px);
+    color: black;
+}
+.top:hover p {
+    transform: translateY(-7px);
+    color: black;
+}
